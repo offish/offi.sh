@@ -1,0 +1,210 @@
+
+/* MAIN */
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /*background: yellow;*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    max-height: 100%;
+    float: left;
+    width: 100%;
+}
+
+#container {
+    margin-top: 7%;
+    height: 70%;
+    width: 50%;
+}
+
+#menu {
+    float: left;
+    height: 100%;
+    width: 15%;
+}
+
+#links {
+    height: 50%;
+    width: 100%;
+}
+
+#links>a {
+    display: list-item;
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 3px;
+    margin-right: 50%;
+}
+
+#links>a:hover {
+    color: #47CF5A;
+}
+
+#content {
+    height: 100%;
+    width: 85%;
+    float: right;
+}
+
+#innhold {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 85%;
+    width: 80%;
+    word-wrap: break-word;
+    overflow: auto;
+}
+
+#innhold>h2 {
+    color: #82E5ED;
+}
+
+#innhold>h2>a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #B488E0;
+}
+
+#innhold>p>a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #B488E0;
+}
+
+#title {
+    padding-top: 4%;
+    height: 10%;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.ending {
+    padding-top: 5%;
+}
+
+.center {
+    margin: auto;
+}
+
+#foot {
+    margin-left: 25%;
+    height: 5%;
+    width: 50%;
+}
+
+#author {
+    height: 100%;
+    width: 25%;
+    float: right;
+    left: right;
+}
+
+#author>p {
+    text-align: right;
+    bottom: 0;
+}
+
+.link {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+/* SCROLLBAR */
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #282A36;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DBF283;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #82E5ED;
+}
+
+
+/* COLORS */
+
+.purple {
+    background-color: #B488E0;
+}
+
+.pink {
+    background-color: #F973A1;
+}
+
+.green {
+    background-color: #47CF5A;
+}
+
+.yellow {
+    background-color: #DBF283;
+}
+
+.blue {
+    background-color: #82E5ED;
+}
+
+.white {
+    background-color: #F6F7E6;
+}
+
+.grey {
+    background-color: #33343A;
+}
+
+.purple-text {
+    color: #B488E0;
+}
+
+.pink-text {
+    color: #F973A1;
+}
+
+.green-text {
+    color: #47CF5A;
+}
+
+.yellow-text {
+    color: #DBF283;
+}
+
+.blue-text {
+    color: #82E5ED;
+}
+
+.white-text {
+    color: #F6F7E6;
+}
+
+.grey-text {
+    color: #33343A;
+}
+
+.background {
+    background-color: #282A36;
+}
+
+.dark {
+    color: #191A21
+}
+
+.dark-background {
+    background-color: #191A21;
+}
